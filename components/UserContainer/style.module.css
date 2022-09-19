@@ -1,0 +1,45 @@
+.container {
+  cursor: pointer;
+  border-bottom: 1px solid #cecccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 50px;
+}
+
+.userContainer {
+  display: flex;
+  align-items: center;
+}
+
+.container:hover {
+  background: #d3dcdf;
+}
+
+.iconRow {
+  display: flex;
+  align-items: center;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+
+@media (max-width: 480px) {
+  .container {
+    cursor: pointer;
+    border-bottom: 1px solid #cecccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px 25px 30px;
+  }
+}
+
+.icon:hover {
+  background: #b9c7cc;
+}
